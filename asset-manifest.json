@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24c3cb34.css",
+    "main.js": "/static/js/main.421f48b4.js",
+    "static/js/453.f02ac6fb.chunk.js": "/static/js/453.f02ac6fb.chunk.js",
+    "static/media/Proyecto2-GranVista.jpg": "/static/media/Proyecto2-GranVista.cc060ce4a48b8231a3d5.jpg",
+    "static/media/Proyecto1-Alamos.jpg": "/static/media/Proyecto1-Alamos.5b305d3d7f30b0e99faa.jpg",
+    "static/media/Proyecto3-TerraAlta.jpg": "/static/media/Proyecto3-TerraAlta.cf6086b3d4ddf03bb8cd.jpg",
+    "static/media/logo.footer.jpeg": "/static/media/logo.footer.79878b0e08554413abb9.jpeg",
+    "static/media/logo.header.jpeg": "/static/media/logo.header.707a9847ede8ce172c12.jpeg",
+    "index.html": "/index.html",
+    "main.24c3cb34.css.map": "/static/css/main.24c3cb34.css.map",
+    "main.421f48b4.js.map": "/static/js/main.421f48b4.js.map",
+    "453.f02ac6fb.chunk.js.map": "/static/js/453.f02ac6fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24c3cb34.css",
+    "static/js/main.421f48b4.js"
+  ]
+}
