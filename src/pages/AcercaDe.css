@@ -1,0 +1,44 @@
+.acerca-container {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.acerca-titulo {
+  font-size: 2.5rem;
+  color: #1e4d3b;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.acerca-descripcion {
+  font-size: 1.1rem;
+  color: #444;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.acerca-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  background: #f8fafc;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.acerca-card h3 {
+  color: #1e4d3b;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.acerca-card p {
+  color: #555;
+  margin: 0;
+  font-size: 0.95rem;
+}

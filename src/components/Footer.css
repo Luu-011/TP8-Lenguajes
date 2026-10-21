@@ -1,0 +1,108 @@
+.footer-container {
+  background-color: #0b531c; /* Verde institucional oscuro */
+  color: #f3f4f6;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  margin-top: auto;
+  border-top: 1px solid #14532d;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.footer-brand {
+  max-width: 320px;
+}
+
+.footer-logo-img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  display: block;
+  background-color: #ffffff;
+  padding: 4px;
+}
+
+.footer-brand p {
+  color: #d1d5db; /* Texto gris claro para que resalte sobre el fondo verde */
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer-links h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 1.2rem 0;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+/* Estilo mejorado para los botones de navegación del footer */
+.footer-links button {
+  background: none;
+  border: none;
+  color: #d1d5db !important;
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0;
+  text-align: left;
+  transition: color 0.2s ease, transform 0.1s ease;
+}
+
+.footer-links button:hover {
+  color: #ffffff !important;
+  transform: translateX(4px); /* Efecto sutil de movimiento al pasar el cursor */
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 2.5rem auto 0 auto;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* Diseño adaptable para celulares */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links button {
+    text-align: center;
+  }
+}

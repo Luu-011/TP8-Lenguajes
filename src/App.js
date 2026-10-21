@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Inicio from './pages/Inicio';
+import Proyecto from './pages/Proyecto';
+import AcercaDe from './pages/AcercaDe';
 import './App.css';
 
-function App() {
+export default function App() {
+  const [paginaActual, setPaginaActual] = useState('inicio');
+
+  // Función para decidir qué componente mostrar en el centro
+  const renderizarPagina = () => {
+    switch (paginaActual) {
+      case 'inicio':
+        return <Inicio />;
+      case 'proyecto':
+        return <Proyecto />;
+      case 'acerca':
+        return <AcercaDe />;
+      default:
+        return <Inicio />;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <Header cambiarPagina={setPaginaActual} />
+      
+      <main style={{ flex: 1 }}>
+        {renderizarPagina()}
+      </main>
+
+      <Footer cambiarPagina={setPaginaActual} />
     </div>
   );
 }
-
-export default App;

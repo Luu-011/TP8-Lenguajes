@@ -1,0 +1,68 @@
+.inicio-container {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inicio-bienvenida {
+  margin-bottom: 40px;
+}
+
+.inicio-bienvenida h1 {
+  font-size: 2.5rem;
+  color: #1e4d3b;
+  margin-bottom: 15px;
+}
+
+.inicio-bienvenida p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.panel-blobs {
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.panel-blobs h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.contenedor-botones-inicio {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+/* Reutilizamos tu clase .boton-verde o la personalizamos si prefieres */
+.boton-verde {
+  background-color: #2f6731;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.boton-verde:hover {
+  background-color: #45a049;
+}
+
+.area-resultado-inicio {
+  text-align: left;
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  white-space: pre-wrap;
+}
